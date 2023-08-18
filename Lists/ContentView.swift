@@ -25,6 +25,7 @@ struct ContentView: View {
                 NavigationLink(destination: individualColor.ignoresSafeArea()) {
                     
                     Text(individualColor.description)
+                    Text("H")
                 }
                     
                     
